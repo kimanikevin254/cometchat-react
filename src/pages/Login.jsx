@@ -26,7 +26,7 @@ function Login({ getUser }) {
 	};
 	return (
     	<div>
-        	<h2>Login to your account using our sample users</h2>
+        	<h2>Log in to your account using our sample users</h2>
         	{sampleusers.map(({ user, UID }) => (
             	<button
                 	key={UID}
